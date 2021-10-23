@@ -11,6 +11,8 @@ DOMAIN-SUFFIX,bibox.com
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.gg
+DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,bitcointalk.org
 DOMAIN-SUFFIX,bitfinex.com
 DOMAIN-SUFFIX,bitmex.com
@@ -25,3 +27,6 @@ DOMAIN-SUFFIX,sushi.com
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,zb.com
+
+#DOMAIN-KEYWORD
+DOMAIN-KEYWORD,binance
