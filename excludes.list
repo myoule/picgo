@@ -16,5 +16,8 @@ DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,omtrdc.net
+# icbc
+DOMAIN-SUFFIX,icbcasia.com
+DOMAIN-SUFFIX,icbcasia.com.hk
 # -------DOMAIN-SUFFIX,gstatic.com
 # other
