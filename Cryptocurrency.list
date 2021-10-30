@@ -9,7 +9,11 @@ DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,bibox.com
 DOMAIN-SUFFIX,binance.cc
-DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,www.binance.com
+IP-CIDR,54.150.172.143
+# IP-CIDR6
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,d3sknckuh1o9tg.cloudfront.net
 DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binance.gg
 DOMAIN-SUFFIX,binance.cloud
