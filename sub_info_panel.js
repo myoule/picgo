@@ -76,7 +76,9 @@ function getUserInfo(url) {
         reject(err);
         return;
       }
-    reject("===" + resp.headers);
+    Object.keys(resp.headers).forEach(key => {
+      reject("header::"+key + "====" + resp.headers[key]);
+    });
       if (resp.status !== 200) {
         reject(resp.status);
         return;
