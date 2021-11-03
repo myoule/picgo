@@ -32,8 +32,9 @@ Sub_info = script-name=Sub_info,update-interval=600
   if (!info) $done();
   let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
 
-  let used = parseInt(info.download) + parseInt(info.upload);
-  console.log('->'+used);
+  let used = info.download + info.upload;
+  console.log('info.download->'+info.download);
+  console.log('info.upload->'+info.upload);
   let total = info.total;
   let expire = args.expire || info.expire;
   let content = [`用量：${bytesToSize(used)} | ${bytesToSize(total)}`];
