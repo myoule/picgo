@@ -32,7 +32,7 @@ Sub_info = script-name=Sub_info,update-interval=600
   if (!info) $done();
   let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
 
-  let used = info.download + info.upload;
+  let used = parseInt(info.download) + parseInt(info.upload);
   console.log('->'+used);
   let total = info.total;
   let expire = args.expire || info.expire;
