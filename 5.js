@@ -33,6 +33,7 @@ Sub_info = script-name=Sub_info,update-interval=600
   let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
 
   let used = info.download + info.upload;
+  console.log('->'+used);
   let total = info.total;
   let expire = args.expire || info.expire;
   let content = [`用量：${bytesToSize(used)} | ${bytesToSize(total)}`];
@@ -78,7 +79,7 @@ function getUserInfo(url) {
       }
 
     Object.keys(resp.headers).forEach(key => {
-      reject("header::"+key + "====" + resp.headers[key]);
+      console.log("header::"+key + "====" + resp.headers[key]);
     });
       if (resp.status !== 200) {
         reject(resp.status);
