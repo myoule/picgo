@@ -28,7 +28,8 @@ Sub_info = script-name=Sub_info,update-interval=600
 
 (async () => {
   let args = getArgs();
-  let info = await getDataInfo(args.url);
+  let now = new Date();
+  let info = await getDataInfo(args.url+'&t=' + now.getTime());
   if (!info) $done();
   let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
 
@@ -45,7 +46,6 @@ Sub_info = script-name=Sub_info,update-interval=600
     content.push(`到期：${formatTime(expire)}`);
   }
 
-  let now = new Date();
   let hour = now.getHours();
   let minutes = now.getMinutes();
   hour = hour > 9 ? hour : "0" + hour;
