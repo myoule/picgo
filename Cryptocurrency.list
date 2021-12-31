@@ -33,6 +33,9 @@ DOMAIN-SUFFIX,gate.io
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,poloniex.com
+# pexpay
+DOMAIN-SUFFIX,pexpay.com
+#
 DOMAIN-SUFFIX,sushi.com
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,uniswap.org
